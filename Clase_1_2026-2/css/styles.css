@@ -1,0 +1,15 @@
+h2{
+    color:rgb(255, 3, 3);
+}
+.tipo1{
+    color: blueviolet;
+    border-color: brown;
+}
+#s{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    padding: 10px;
+    border: 10px solid brown;
+    margin: 10px;
+    
+}
