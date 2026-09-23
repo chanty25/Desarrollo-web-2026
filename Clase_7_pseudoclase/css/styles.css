@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+h1 {
+    color: blue;
+    display: inline-block;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 20px;
+
+    a {
+        text-decoration: none;
+        border: solid 1px black;
+        padding: 10px;
+        border-radius: 10px;
+
+        &:hover {
+            background-color: black;
+        }
+    }
+}
